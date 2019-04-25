@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.67.247.29:5000/jx-dev-org-mikec/bdd-quickstarts
+  tag: 0.0.8
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
