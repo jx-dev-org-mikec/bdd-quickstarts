@@ -10,4 +10,3 @@ pipelineConfig:
             steps:
               - command: jx/bdd/tekton/ci.sh
                 name: runci
-
