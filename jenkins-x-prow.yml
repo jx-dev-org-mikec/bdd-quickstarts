@@ -1,4 +1,4 @@
-buildPack: go
+buildPack: none
 pipelineConfig:
   pipelines:
     pullRequest:
