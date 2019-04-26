@@ -1,5 +1,7 @@
 buildPack: none
 pipelineConfig:
+  agent:
+    container: gcr.io/jenkinsxio/builder-go
   pipelines:
     pullRequest:
       pipeline:
