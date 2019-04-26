@@ -5,7 +5,7 @@ set -x
 export GH_USERNAME="jenkinsx-dev-mikec-bot"
 export GH_OWNER="jx-dev-org-mikec"
 
-export GH_CREDS_PSW="$(jx step credential -s jenkins-x-bot-test-github)"
+export GH_CREDS_PSW="$(jx step credential -s jenkinsx-dev-mikec-bot)"
 export JENKINS_CREDS_PSW="$(jx step credential -s  test-jenkins-user)"
 export GKE_SA="$(jx step credential -k bdd-credentials.json -s bdd-secret -f sa.json)"
 
