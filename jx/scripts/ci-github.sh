@@ -2,8 +2,8 @@
 set -e
 set -x
 
-export GH_USERNAME="jenkins-x-bot-test"
-export GH_OWNER="cb-kubecd"
+export GH_USERNAME="jenkinsx-dev-mikec-bot"
+export GH_OWNER="jx-dev-org-mikec"
 
 export GH_CREDS_PSW="$(jx step credential -s jenkins-x-bot-test-github)"
 export JENKINS_CREDS_PSW="$(jx step credential -s  test-jenkins-user)"
